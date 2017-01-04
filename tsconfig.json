@@ -1,0 +1,23 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "module": "commonjs",
+    "watch": true,
+    "noImplicitAny": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "es5",
+    "experimentalDecorators": true,
+    "preserveConstEnums": true
+  },
+  "exclude": [
+    ".awcache",
+    "./vscode"
+  ],
+  "include": [
+    "node_modules/@types/**/*.d.ts",
+    "index.ts",
+    "test/**/*.ts"
+  ]
+}
+
