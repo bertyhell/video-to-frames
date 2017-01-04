@@ -30,11 +30,11 @@ VideoToFrames.getFrames('bunny.mp4', 30, VideoToFramesMethod.totalFrames).then(f
 For a video file (bunny.mp4) which is 1280x720 and comes in at 5MB
 
 ##### Desktop (windows i7)
-* Getting 30 frames takes about 2 seconds
-* Getting 60 takes about 4 seconds
-* Getting 120 takes about 8 seconds
+* Getting   5 frames takes about 0.7 seconds
+* Getting  30 frames takes about 2   seconds
+* Getting  60 frames takes about 4   seconds
+* Getting 120 frames takes about 8   seconds
 
 ##### phone (Nexus 5)
-* Getting 30 frames takes about 2 seconds
-* Getting 60 takes about 4 seconds
-* Getting 120 takes about 8 seconds
+* Getting   5 frames takes about 4   seconds
+* Getting  30 frames takes about 32  seconds
